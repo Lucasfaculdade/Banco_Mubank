@@ -1,0 +1,28 @@
+#about h1{
+    position: relative;
+    text-align: center; 
+    padding: 56px 0 18px;      
+}
+
+#title h1{
+    height: 100px;
+}
+
+#title_vision h3{
+    text-align: center;
+}
+
+#about_bank h3{
+    padding: 15px;
+    height: 25px;
+}
+
+#about_bank p{
+    padding: 15px;
+}
+
+#about_bank h2{
+    padding: 20px;
+    height: 25px;
+    text-align: left;
+}

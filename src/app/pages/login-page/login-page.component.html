@@ -1,0 +1,36 @@
+<form [formGroup]="loginForm">
+    <div id="body">
+        <div id="wrapper">
+            <div id="form-box">
+             <h2>Login</h2>
+                 <div id="input-box">
+                  <span id="icon">
+                    <mat-icon id="icon">perm_identity</mat-icon>
+                  </span>
+                  <input class="form-control" formControlName="CPF" type="text" required>
+                  <label>CPF</label>
+                 </div>
+         
+                 <div id="input-box">
+                      <span id="icon">
+                        <mat-icon id="icon">password</mat-icon>
+                      </span>
+                     <input class="form-control" formControlName="password" type="password" required>
+                     <label>Senha</label>
+                 </div>
+                 <div id="remember-forgot">
+                     <label>
+                         <label>
+                             <input type="checkbox">
+                             Lembre-se de mim!
+                         </label>
+                         <a href="#">Esqueceu a senha ?</a>
+                     </label>
+                 </div>
+                 <button type="submit" id="btn">Login</button>
+               
+                 <div id="login-register"><p>Não tem uma conta ?<a routerLink="/newAccount" class="register-link"> Cadastre-se </a></p></div>
+            </div>
+         </div>
+    </div>
+</form>

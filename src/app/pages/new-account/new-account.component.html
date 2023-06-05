@@ -1,0 +1,63 @@
+<form [formGroup]="registerForm" (ngSubmit)="cadastrarConta()">
+  <div id="body">
+    <div id="wrapper">
+        <div id="form-box">
+         <h2>Criar Conta</h2>
+             <div id="input-box">
+              <span id="icon">
+                <mat-icon>perm_identity</mat-icon>
+              </span>
+              <input class="form-control" formControlName="fullName" type="text" required>
+              <label>Nome Completo</label>
+             </div>
+     
+             <div id="input-box">
+                  <span id="icon">
+                    <mat-icon>email</mat-icon>
+                  </span>
+                 <input class="form-control" formControlName="email" type="email" required>
+                 <label>E-mail</label>
+             </div>
+
+             <div id="input-box">
+              <span id="icon">
+                <mat-icon>credit_card</mat-icon>
+              </span>
+             <input class="form-control" formControlName="CPF" type="text" required>
+             <label>CPF</label>
+           </div>
+
+             <div id="input-box">
+                <span id="icon">
+                    <mat-icon>calendar_month</mat-icon>
+                </span>
+               <input class="form-control" formControlName="date" type="date" required>
+               <label></label>
+             </div>
+
+             <div id="input-box">
+                <span id="icon">
+                   <mat-icon >password</mat-icon>
+                </span>
+                  <input class="form-control" formControlName="password" type="password" required>
+                <label>Senha</label>
+            </div>
+
+            <div id="remember-forgot">
+              <label>
+                  <label>
+                      <input type="checkbox">
+                      Eu concordo com termos de serviço
+                  </label>
+              </label>
+          </div>
+             <button type="submit" onclick="cadastrarConta()" id="btn">Cadastrar</button>
+        
+      
+         <div id="return-login">
+            <p>Já tem uma conta ? <a href="loginPage">Logue aqui</a></p>
+         </div>
+        </div>
+     </div>
+</div>
+</form>

@@ -1,0 +1,28 @@
+#contact h1{
+  position: relative;
+  text-align: center; 
+  padding: 56px 0 18px;      
+}
+
+#title h1{
+  height: 100px;
+}
+
+#title_vision h1{
+  text-align: center;
+}
+
+#contact_bank h3{
+  padding: 15px;
+  height: 25px;
+}
+
+#contact_bank p{
+  padding: 15px;
+}
+
+#contact_bank h2{
+  padding: 20px;
+  height: 25px;
+  text-align: left;
+}
